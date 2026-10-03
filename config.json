@@ -31,7 +31,7 @@
   "video": {
     "file": "assets/video/hello.mp4",
     "start_seconds": 0,
-    "seconds": 2.0,
+    "seconds": 10.0,
     "focus_y": 0.2,
     "max_kb": 520
   },

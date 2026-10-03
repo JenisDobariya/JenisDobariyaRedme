@@ -188,13 +188,13 @@ def build_video_block(loop_out):
     path = ROOT / v["file"]
     size = (724, 540)
     if path.exists():
-        frames = extract_frames(path, v.get("start_seconds", 0), min(float(v.get("seconds", 2.0)), 2.5), size)
+        frames = extract_frames(path, v.get("start_seconds", 0), float(v.get("seconds", 10.0)), size)
         src = "your video"
     else:
         frames = placeholder_frames(36, size)
         src = "PLACEHOLDER"
         WARN.append(f"no video at {v['file']} -> using a placeholder. Drop your clip there and re-run.")
-    frames = [cover(f, size, v.get("focus_y", 0.2)) for f in frames][:60]
+    frames = [cover(f, size, v.get("focus_y", 0.2)) for f in frames]
     
     # Keep it at 100% scale and high quality (HD)
     scale = 1.0
