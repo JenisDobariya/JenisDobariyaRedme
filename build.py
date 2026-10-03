@@ -285,8 +285,33 @@ def load_or_placeholder(rel, size, label):
 def build_id_photo():
     P = CFG["photos"]
     img, real = load_or_placeholder(P["id_badge"], (272, 336), "YOUR PHOTO")
-    img = ImageOps.exif_transpose(img).convert("RGB")
-    img = ImageOps.fit(img, (272, 336), method=Image.LANCZOS, centering=(0.5, P.get("id_badge_focus_y", 0.25)))
+    img = ImageOps.exif_transpose(img)
+    
+    if real:
+        try:
+            from rembg import remove
+            print("  id photo: removing background with rembg …")
+            img = remove(img.convert("RGB"))
+            
+            # Create the soft gradient background
+            w, h = 272, 336
+            bg = Image.new("RGB", (w, h), (23, 26, 44))
+            d = ImageDraw.Draw(bg)
+            for y in range(h):
+                t = y / h
+                d.line([(0, y), (w, y)], fill=(int(30 + 40 * t), int(26 + 20 * t), int(60 + 60 * t)))
+            
+            # Resize and paste the foreground over the background
+            img = ImageOps.fit(img, (w, h), method=Image.LANCZOS, centering=(0.5, P.get("id_badge_focus_y", 0.25)))
+            bg.paste(img, (0, 0), img)
+            img = bg
+        except ImportError:
+            img = img.convert("RGB")
+            img = ImageOps.fit(img, (272, 336), method=Image.LANCZOS, centering=(0.5, P.get("id_badge_focus_y", 0.25)))
+    else:
+        img = img.convert("RGB")
+        img = ImageOps.fit(img, (272, 336), method=Image.LANCZOS, centering=(0.5, P.get("id_badge_focus_y", 0.25)))
+        
     return "data:image/jpeg;base64," + b64(jpeg_bytes(img, 86))
 
 def build_connect_photo():
