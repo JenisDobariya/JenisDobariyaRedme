@@ -1,0 +1,286 @@
+{
+  "_help": "Edit this file, drop your photo/video into assets/, then run: python build.py   (fields starting with TODO are things only you can fill in)",
+  "github_username": "TODO-your-github-username",
+  "name": "Jenis Dobariya",
+  "nickname": "DJ",
+  "title": "AI Engineer",
+  "roles": [
+    "AI Engineer",
+    "R&D at Leap Interactive",
+    "Founder of RankResume.pro",
+    "Builder of AI products"
+  ],
+  "tagline": [
+    "Building AI products end to end, from R&D prototypes",
+    "to live platforms like RankResume.pro."
+  ],
+  "meta": [
+    {
+      "icon": "pin",
+      "text": "Dubai, UAE"
+    },
+    {
+      "icon": "briefcase",
+      "text": "Leap Interactive AI"
+    },
+    {
+      "icon": "star",
+      "text": "Founder · RankResume.pro"
+    }
+  ],
+  "video": {
+    "file": "assets/video/hello.mp4",
+    "start_seconds": 0,
+    "seconds": 2.0,
+    "focus_y": 0.2,
+    "max_kb": 520
+  },
+  "photos": {
+    "id_badge": "assets/photos/id-photo.jpg",
+    "id_badge_focus_y": 0.25,
+    "connect": "assets/photos/connect.png",
+    "connect_remove_background": true
+  },
+  "about": {
+    "dev_heading": "AI that ships to real users",
+    "skills": [
+      {
+        "title": "LLM-powered products",
+        "desc": "Gemini, Groq & Claude inside real, shipped apps"
+      },
+      {
+        "title": "Vision & generative media",
+        "desc": "OpenCV, MediaPipe & face-preserving video pipelines"
+      },
+      {
+        "title": "Full-stack AI platforms",
+        "desc": "FastAPI backends, Firebase auth & RankResume.pro"
+      }
+    ],
+    "life_heading": "Outside the code",
+    "hobbies": [
+      {
+        "label": "HOBBY",
+        "title": "TODO your hobby #1",
+        "caption": "TODO one line about it."
+      },
+      {
+        "label": "HOBBY",
+        "title": "TODO your hobby #2",
+        "caption": "TODO one line about it."
+      },
+      {
+        "label": "HOBBY",
+        "title": "TODO your hobby #3",
+        "caption": "TODO one line about it."
+      }
+    ],
+    "rings": [
+      "Move",
+      "Hydrate",
+      "Code"
+    ]
+  },
+  "stack": {
+    "heading": "Tools I build with",
+    "orbit": {
+      "planet": "python",
+      "moons": [
+        "fastapi",
+        "opencv"
+      ],
+      "others": [
+        "javascript",
+        "html5",
+        "googlegemini",
+        "mediapipe",
+        "claude",
+        "git"
+      ]
+    },
+    "categories": [
+      {
+        "name": "LANGUAGES",
+        "color": "#22d3ee",
+        "items": [
+          "python",
+          "javascript",
+          "html5",
+          "css"
+        ]
+      },
+      {
+        "name": "AI & VISION",
+        "color": "#a78bfa",
+        "items": [
+          [
+            "googlegemini",
+            "Gemini"
+          ],
+          "opencv",
+          "mediapipe",
+          "claude"
+        ]
+      },
+      {
+        "name": "BACKEND & APPS",
+        "color": "#fbbf24",
+        "items": [
+          "fastapi",
+          "firebase",
+          "android"
+        ]
+      },
+      {
+        "name": "WORKFLOW",
+        "color": "#f472b6",
+        "items": [
+          "git",
+          "github",
+          "sparkle"
+        ]
+      }
+    ]
+  },
+  "dashboard": {
+    "badge_fields": [
+      [
+        "BASE",
+        "Dubai, UAE"
+      ],
+      [
+        "TEAM",
+        "Leap R&D"
+      ],
+      [
+        "ID",
+        "DJ-AI"
+      ],
+      [
+        "FOCUS",
+        "Applied AI"
+      ]
+    ],
+    "building": "AI at Leap R&D & RankResume.pro",
+    "exploring": "Live talking AI characters & lip-sync",
+    "fuel": "Hands-on building, project by project",
+    "rows_caption": "stars per repository · AI builds",
+    "featured_repos_fallback": [
+      {
+        "name": "RankResume.pro",
+        "stars": 0
+      },
+      {
+        "name": "Nova (talking AI)",
+        "stars": 0
+      },
+      {
+        "name": "EmoSense",
+        "stars": 0
+      },
+      {
+        "name": "Lumina",
+        "stars": 0
+      }
+    ],
+    "stats_fallback": {
+      "repos": 0,
+      "stars": 0,
+      "forks": 0,
+      "followers": 0
+    },
+    "community": {
+      "title": "COMMUNITY",
+      "icon": "github",
+      "label1": "GITHUB FOLLOWERS",
+      "value1": "auto:followers",
+      "label2": "TOTAL STARS",
+      "value2": "auto:stars",
+      "handle": "auto"
+    }
+  },
+  "connect": {
+    "sub": "Open to collabs, AI projects and big ideas.",
+    "quote": "Build it hands-on, ship it for real.",
+    "email": "TODO-your-email@example.com",
+    "card3": {
+      "label": "Instagram",
+      "handle": "TODO-@your_instagram",
+      "icon": "instagram"
+    },
+    "card4": {
+      "label": "Threads",
+      "handle": "TODO-@your_threads",
+      "icon": "threads"
+    }
+  },
+  "readme": {
+    "featured_heading": "🚀 Featured builds",
+    "projects": [
+      {
+        "name": "RankResume.pro",
+        "url": "https://rankresume.pro",
+        "what": "AI-powered resume platform with ATS optimization and keyword matching",
+        "stack": [
+          "AI",
+          "Web"
+        ],
+        "stars": "—"
+      },
+      {
+        "name": "Nova",
+        "url": "",
+        "what": "Free live talking AI character: LLM brain, voice and lip-synced avatar",
+        "stack": [
+          "Python",
+          "FastAPI",
+          "Groq"
+        ],
+        "stars": "—"
+      },
+      {
+        "name": "EmoSense",
+        "url": "",
+        "what": "Human emotion analysis platform with live demo and dashboard",
+        "stack": [
+          "HTML",
+          "CSS",
+          "JS",
+          "Firebase"
+        ],
+        "stars": "—"
+      },
+      {
+        "name": "Lumina",
+        "url": "",
+        "what": "AI-powered Android photo editor (in design)",
+        "stack": [
+          "Android",
+          "AI"
+        ],
+        "stars": "—"
+      }
+    ],
+    "badges": [
+      {
+        "label": "GitHub",
+        "color": "22d3ee",
+        "logo": "github",
+        "url": "https://github.com/{username}"
+      },
+      {
+        "label": "Email",
+        "color": "f472b6",
+        "logo": "gmail",
+        "url": "mailto:{email}"
+      },
+      {
+        "label": "RankResume",
+        "color": "a78bfa",
+        "logo": "",
+        "url": "https://rankresume.pro"
+      }
+    ],
+    "footer": "**Always learning, always building.** 💜"
+  }
+}

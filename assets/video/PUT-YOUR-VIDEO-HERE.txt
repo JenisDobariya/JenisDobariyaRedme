@@ -1,0 +1,5 @@
+Save your intro clip here as:  hello.mp4
+
+- 2 seconds are used (config.json -> video.seconds, video.start_seconds picks where to start)
+- Best: you waving / saying hi, plain dark or black background (it blends into the dark card)
+- Portrait or landscape both work; face near the top is fine (video.focus_y controls the crop)

@@ -1,0 +1,3 @@
+id-photo.jpg   -> photo on the swinging ID badge   (any portrait photo, face in the upper half)
+connect.png    -> half-body photo for "Let's connect" (transparent-background PNG looks best)
+                  No transparent PNG? Use any photo + `pip install rembg` and build.py removes the background.
