@@ -46,13 +46,13 @@
 <!-- 💌 LET'S CONNECT -->
 <img src="./connect.svg?v=1" alt="Let's connect" width="100%"/>
 
-<a href="https://github.com/jennisdobariya"><img src="https://img.shields.io/badge/GitHub-22d3ee?style=for-the-badge&logo=github&logoColor=0d0e16" alt="GitHub"/></a>
-<a href="mailto:[EMAIL_ADDRESS]"><img src="https://img.shields.io/badge/Email-f472b6?style=for-the-badge&logo=gmail&logoColor=0d0e16" alt="Email"/></a>
+<a href="https://github.com/your-github-username"><img src="https://img.shields.io/badge/GitHub-22d3ee?style=for-the-badge&logo=github&logoColor=0d0e16" alt="GitHub"/></a>
+<a href="mailto:TODO-your-email@example.com"><img src="https://img.shields.io/badge/Email-f472b6?style=for-the-badge&logo=gmail&logoColor=0d0e16" alt="Email"/></a>
 <a href="https://rankresume.pro"><img src="https://img.shields.io/badge/RankResume-a78bfa?style=for-the-badge&logoColor=0d0e16" alt="RankResume"/></a>
 
 <br/><br/>
 
-<img src="https://komarev.com/ghpvc/?username=jennisdobariya&color=a78bfa&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile views"/>
+<img src="https://komarev.com/ghpvc/?username=your-github-username&color=a78bfa&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile views"/>
 
 <br/>
 
