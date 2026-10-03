@@ -36,7 +36,7 @@
     "max_kb": 520
   },
   "photos": {
-    "id_badge": "assets/photos/id-photo.jpg",
+    "id_badge": "assets/photos/id-photo.png",
     "id_badge_focus_y": 0.25,
     "connect": "assets/photos/connect.png",
     "connect_remove_background": true
